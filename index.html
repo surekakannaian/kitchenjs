@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kitchen-only!</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <header>
+    <div class="logo"><img src="images/k-logo.png" alt="">
+      <h1>ITCHEN ONLY</h1>
+    </div>
+    <div class="right">
+      <input type="text" placeholder="Type to search">
+      <input type="button" value="Search">
+    </div>
+  </header>
+  <main>
+    <nav>
+      <div class="nav-links" id="topnav">
+      <a href="#home">Home</a>
+      <a href="#major-appliances">Major Appliances</a>
+      <a href="#counter-top">CounterTop Appliances</a>
+      <a href="#kitchenware">Kitchenware</a>
+      <a href="#contact">Contact us</a>
+      <a href="javascript:void(0);" class="icon" onclick="nav()"><i class="fa-solid fa-bars"></i></a>
+    </div>
+      <section class="alert" style="overflow: hidden;">
+        <marquee behavior="" direction="left" onmouseover="this.stop();" onmouseout="this.start(); ">
+          <i class="fa-solid fa-bell"></i>Get an EXTRA 10% OFF on orders above ₹3,500 and an EXTRA 5% OFF on orders above
+          ₹2,000. T&C apply. <i class="fa-solid fa-bell"></i> Wonderchef Roti-Magic - Buy today & save ₹22,001/-
+        </marquee>
+      </section>
+    </nav>
+   
+    <section id="home">
+      <div class="slider">
+        <div class="images">
+          <input type="radio" name="slide" id="img1" checked>
+          <input type="radio" name="slide" id="img2">
+          <input type="radio" name="slide" id="img3">
+          <input type="radio" name="slide" id="img4">
+          <img src="images/hmpg1chng1.png" class="m1">
+          <img src="images/homepg-2.webp" class="m2">
+          <img src="images/juicer.png" class="m3">
+          <img src="images/img3.png" class="m4">
+        </div>
+     
+      <div class="chng-btn">
+        <label for="img1"></label>
+        <label for="img2"></label>
+        <label for="img3"></label>
+        <label for="img4"></label>
+      </div> </div>
+      <div class="side"><img src="images/hmpgside1.png" alt=""></div>
+    </section>
+    <section id="major-appliances">
+      <h1>MAJOR-APPLIANCES</h1>
+      <div class="counter">
+        <div class="items">
+          <img src="images/oven2.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 10,000</h4>
+          <button type="button">Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/oven3.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 10,000</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/oven4.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 9999</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/oven6.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 10,999</h4>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="counter">
+        <div class="items">
+          <img src="images/cts1.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 20,000</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/cts2.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 25,000</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/cts3.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 19,999</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/cts4.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 19,999</h4>
+          <button>Add to Cart</button>
+        </div>
+
+      </div>
+
+
+      <div class="counter">
+        <div class="items">
+          <img src="images/cofee-warm.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 1,000</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/cofee-warm2.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 999</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/cofee-warm3.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 1,999</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/cofee-warm4.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 2,200</h4>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+
+      <div class="counter">
+        <div class="items">
+          <img src="images/ref1.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 17,000</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/ref2.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 27,999</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/ref3.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 1,91,999</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/ref4.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 22,200</h4>
+          <button>Add to Cart</button>
+        </div> 
+      </div>
+      <div class="counter">
+        <div class="items">
+          <img src="images/hoods.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 5,000</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/hoods2.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 4,999</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/hoods3.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 11,999</h4>
+          <button>Add to Cart</button>
+        </div>
+        <div class="items">
+          <img src="images/hoods4.png" alt="">
+          <p>Lorem ipsum dolor sit amet</p>
+          <h4>&#8377 5,200</h4>
+          <button>Add to Cart</button>
+        </div>
+      </div>
+      <hr>
+    </section>
+   
+    <section id="contact">
+      <div class="info">
+        <div class="call">
+          <i class="fa-solid fa-phone"></i>
+          <p>+91 9123568909</p>
+        </div>
+        <div class="mail">
+          <i class="fa-solid fa-envelope"></i>
+          <p>info@kitchenaid.in <br> serv@kitchenaid.in</p>
+        </div>
+        <div class="location">
+          <i class="fa-solid fa-location-dot"></i>
+          <p>Lorem ipsum dolor sit amet consectetur.</p>
+          <p>Lorem ipsum dolor sit.</p>
+        </div>
+      </div>
+      <form>
+        <h1>1.Tell Us Your Topic</h1>
+        <hr>
+        <label for="">*Topic:</label><br>
+        <select name="" id="" required>
+          <option value="">Lorem, ipsum dolor.</option>
+          <option value="">Lorem, ipsum dolor.</option>
+          <option value="">Lorem, ipsum dolor.</option>
+        </select><br>
+        <label for="">*sub-Topic:</label><br>
+        <select name="" id="" required>
+          <option value="">Lorem, ipsum dolor.</option>
+          <option value="">Lorem, ipsum dolor.</option>
+          <option value="">Lorem, ipsum dolor.</option>
+        </select><br>
+        <label for="">Model Number:</label><br>
+        <input type="number"><br>
+        <label for="">Serial Number:</label><br>
+        <input type="number"><br>
+        <label for="">Comments & Questions</label><br>
+        <textarea name="" id="" maxlength="500"></textarea>
+      </form>
+      <form>
+        <h1>Your Contact Information</h1>
+        <hr>
+        <label for="">*First Name:</label><br>
+        <input type="text"><br>
+        <label for="">*Last Name:</label><br>
+        <input type="text"><br>
+        <label for="">*Email:</label><br>
+        <input type="email"><br>
+        <label for="">*Confirm Email:</label><br>
+        <input type="email"><br>
+        <input type="submit">
+      </form>
+    </section>
+  </main>
+  <footer>
+    <div class="end">
+      <div>
+        <a href=""> <img src="images/warrenty.png" alt=""></a>
+        <p>Warrenty Guid</p>
+      </div>
+      <div>
+        <a href=""><i class="fa-solid fa-location-dot"></i></a>
+        <p>Find A Retailer</p>
+      </div>
+      <div>
+        <p>CONNECT WITH US</p>
+        <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+        <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+        <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+      </div>
+    </div>
+    <hr>
+    <small><div>&copy; copyrights@aaa manufacturing 2017</div> </small>
+  </footer>
+<script>
+function nav() {
+  var x = document.getElementById('topnav');
+  if (x.className === "nav-links") {
+    x.className += " responsive";
+  } 
+  else {
+    x.className = "nav-links";
+  }
+}
+</script>
+</body>
+
+</html>
